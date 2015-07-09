@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#right-square {
+    display: none;
+    background-color: red;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 200px;
+    height: 200px;
+    z-index: 3;
+    text-align: center
+}
+
+#left-square {
+    display: none;
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    z-index: 3;
+}
+
+span {
+    vertical-align: middle;
+    display: table-cell;
+    width: 200px;
+    text-align: center;
+    padding-top: 80px;
+}
